@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kalkulator Segitiga</title>
+    <link rel="stylesheet" href="CSS/sytle.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Welcome My Project Count</h1>
+      <p>Hitung Cepat, Temukan Sudut, Kalkulator Segitiga Sahabat Matematika</p>
+    </header>
+    <main>
+      <h2>Luas Segitiga</h2>
+      <img src="soal/soal luas.png" alt="soal 1" />
+      <section class="input-luas">
+        <label for="inpt-alas" id="label-alas">Alas</label>
+        <input type="number" id="inpt-alas" />
+      </section>
+      <section class="input-tinggi">
+        <label for="inpt-tinggi" id="label-tinggi">Tinggi</label>
+        <input type="number" id="inpt-tinggi" />
+      </section>
+      <section class="hasil-luas">
+        <p>Hasil Luas: <span id="hasil-luas"></span></p>
+      </section>
+
+      <h2>Keliling Segitiga</h2>
+      <img src="soal/soal keliling.png" alt="soal 2" />
+      <section class="input-sisi1">
+        <label for="inpt-sisi1" id="label-sisi1">Sisi A</label>
+        <input type="number" id="inpt-sisi1" />
+      </section>
+      <section class="input-sisi2">
+        <label for="inpt-sisi2" id="label-sisi2">Sisi B</label>
+        <input type="number" id="inpt-sisi2" />
+      </section>
+      <section class="input-sisi3">
+        <label for="inpt-sisi3" id="label-sisi3">Sisi C</label>
+        <input type="number" id="inpt-sisi3" />
+      </section>
+      <section class="hasil-keliling">
+        <p>Hasil Keliling: <span id="hasil-keliling"></span></p>
+      </section>
+      <div class="buttons">
+        <button>Hitung</button>
+        <button>Reset</button>
+      </div>
+    </main>
+    <script src="JavaScript/index.js"></script>
+  </body>
+</html>
